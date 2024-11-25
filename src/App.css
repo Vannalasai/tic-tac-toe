@@ -1,0 +1,47 @@
+/* Styles for the game */
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+/* Styles for the board */
+.board-row {
+  display: flex;
+}
+
+/* Styles for the squares */
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square:hover {
+  background: #ddd;
+}
+
+/* Styles for the status */
+.status {
+  margin-bottom: 10px;
+}
